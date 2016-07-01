@@ -1,0 +1,3 @@
+vansrnd = parseInt(Math.random()*1000000);
+vanshttp = 'https:' == document.location.protocol?'https://':'http://';
+document.write("<scr"+"ipt src='"+vanshttp+"svc.linkvans.com/imp/4ae897ab-ede0-4704-ab03-1744612997aa/normal/"+vansrnd+"'></scr"+"ipt>");
